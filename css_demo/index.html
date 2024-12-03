@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo|Adam Hagen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #purple-text {
+            color: purple;
+        }
+        #green-text {
+            color:green
+        }
+        #multi-text {
+            color: pink;
+            text-align: right;
+            font-size: 50px;
+        }
+        h2 {
+            text-align: center;
+        }
+        .multi-line {
+            font-size: 15px;
+            color: rgb(7, 103, 15);
+            font-family:fantasy;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <h1>Today, we will learn about adding stlye</h1>
+    <h2>This is how we add stlye with INLINE CSS</h2>
+    <p style="color:crimson">I want this text to be red</p>
+    <p style="color:blue">But i want this text to be blue</p>
+    <p style="font-size: 50px;">I want this text to be large</p>
+    <p style="font-size: 10px;">But i want this text to be small</p>
+    <p style="text-align: right;">I want this text to be right-aligned</p>
+    <p style="text-align: center;">But i want this text to be centered</p>
+    <p style="color:orange; font-size: 24px; text-align: center;">I want this font to be orange, 24px, and centered</p>
+
+    <h2>This is how we use INTERNAL styling</h2>
+    <p id="purple-text">I want this text to be purple</p>
+    <p id="green-text">But i want this text to be green</p>
+    <p id="multi-text">I want this text to be pink, right-aligned, and big</p>
+
+    <h3 class="multi-line">This is part of a class</h3>
+    <p class="multi-line">So is this</p>
+    <p class="multi-line">i can style multiple things at once with a class selector</p>
+
+    <h2>This is how we add EXTERNAL styling</h2>
+    <p id="baby-blue-text">I want this text to be baby blue</p>
+    <h2>This is how we use divs and spans</h2>
+    <div class="copy">
+        <p>This pharagraph is part of a div</p>
+        <p>And so is this one</p>
+    </div>
+</body>
+</html>
